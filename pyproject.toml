@@ -1,0 +1,20 @@
+[project]
+name = "sparkFlow"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Jeonghoon2", email = "ukidd12@naver.com"},
+]
+dependencies = [
+    "pandas>=2.2.2",
+    "pyarrow>=17.0.0",
+    "fastparquet>=2024.5.0",
+	'pyspark==3.5.1'
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
